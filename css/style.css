@@ -1,0 +1,328 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.layout_padding {
+  padding: 90px 0;
+}
+
+.layout_padding2 {
+  padding: 45px 0;
+}
+
+.layout_padding2-top {
+  padding-top: 45px;
+}
+
+.layout_padding2-bottom {
+  padding-bottom: 45px;
+}
+
+.layout_padding-top {
+  padding-top: 90px;
+}
+
+.layout_padding-bottom {
+  padding-bottom: 90px;
+}
+
+
+
+
+.heading_container h2 {       /* for the latest products  style */
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.heading_container.heading_center {        /* for the latest productsalignment */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+/*header section*/
+.header_section {               /* for the very top of the page*/
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.header_section .container-fluid { /* to adjust the words position*/
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+
+
+.navbar-brand span { /* hamas word color*/
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/*end header section*/
+/* slider section */
+.slider_section {      /*the first big photo section*/
+  min-height: 100vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;  /*?????*/
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+
+
+.slider_section .detail-box { /* the words written within the big photo*/
+  position: relative;
+  z-index: 4;
+  color: #ffffff;
+  padding: 75px 0;
+}
+
+.slider_section .detail-box h1 { /* the words written within the big photo (header design)*/
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.slider_section .detail-box p { /* the words written within the big photo (paragraph design )*/
+  width: 75%;
+  margin-top: 15px;
+}
+
+.slider_section .detail-box .slider-link { /* the first button "add products now*/
+  display: inline-block;
+  padding: 10px 45px;
+  background-color:  #fd9c6b;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #fd9c6b;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  margin-top: 35px;
+}
+
+
+
+.slider_section .slider_bg_box { /*background box alignment*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.slider_section .slider_bg_box img { /* bg photo alignment*/
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top right;
+     object-position: top right;
+}
+
+
+
+/*<---- end of slider section ------>*/
+
+
+/*<---- start of shop section  ------>*/
+
+
+
+
+.shop_section .heading_container {
+  margin-bottom: 20px;
+}
+
+.shop_section .box {         /* designig class box*/
+  background-color: #eeeeee;
+  position: relative;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.shop_section .box a { /* hyperlink designing*/
+  color: #000000;
+}
+
+.shop_section .box .img-box {    /*image box (place) of the product designing and alignment*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center; /*???????*/
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+  height: 245px;
+}
+
+.shop_section .box .img-box img {  /* properties of the image filling the image box*/
+  max-width: 100%;
+  max-height: 145px;
+}
+
+.shop_section .box .detail-box { /* desining the box that has the details of the products*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shop_section .box .detail-box h6 span {
+  color: #fd9c6b;
+}
+
+.shop_section .box .new {            /* the "NEW circle*/
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+  font-size: 15px;
+}
+
+.shop_section .btn-box {  /* the "search more products" button box design*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 45px;
+}
+
+.shop_section .btn-box a { /* the "search more products" button link */ 
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #fd9c6b;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #fd9c6b;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.shop_section .btn-box a:hover {
+  background-color: transparent;
+  color: #fd9c6b;
+}
+
+/*---->about section<-----*/
+.about_section .row { /* arranging all the elements of the about us section to be in row*/
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about_section .img-box {    /* image box alignment*/
+  position: relative;
+  padding: 25px 0 0 25px;
+}
+
+.about_section .img-box img { /* image box alignment*/
+  width: 100%;
+  position: relative;
+}
+
+.about_section .img-box::before { /* the black box that is behind the man in about us section */
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  background-color: #160e0b;
+}
+
+
+
+/*<----- end of about section ----->*/
+
+
+/*info section starting*/
+
+.info_section {          /*info section design*/
+  background-color: #160e0b;
+  color: #ffffff;
+}
+
+
+.info_section .info_contact a { /*info contacts design */
+  display: -webkit-box;  /*?????????????*/
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.info_section .info_contact a i { /* difference between the contact info and its logo*/
+  margin-right: 5px;
+  width: 25px;
+}
+
+.info_section .info_contact a:hover:hover { /* hover of contact info*/
+  color: #fd9c6b;
+}
+/* end of info section*/ 
+
+
+
+/* footer section*/
+.footer_section {
+  position: relative;
+  text-align: center;
+}
+
+.footer_section p {
+  color: #000000;
+  padding: 25px 0;
+  margin: 0;
+}
+
+.footer_section p a {
+  color: inherit;
+}
+
+
+/*# sourceMappingURL=style.css.map */
